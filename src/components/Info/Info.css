@@ -1,0 +1,132 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.info__profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 317px;
+    border-radius: 10px 10px 0 0;
+}
+
+.info__profile-img {
+    width: 100%;
+    height: auto;
+    max-width: 317px;
+    max-height: 317px;
+    border-radius: 10px 10px 0 0;
+}
+
+.info__details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 32px 16px;
+}
+
+.info__details_name {
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 800;
+    color: var(--color-white);
+    text-align: center;
+
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+.info__details_title {
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: var(--color-orange);
+    text-align: center;
+
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.info__details_website {
+    font-size: 12px;
+    line-height: 1.3;
+    font-weight: 400;
+    color: var(--color-title);
+    text-align: center;
+
+    margin-top: 0;
+    margin-bottom: 16px;
+
+    text-decoration: none;
+}
+
+.info__details_website:hover {
+    color: var(--color-linkedin-blue);
+    text-decoration: underline;
+}
+
+.info__details_website:focus {
+    color: var(--color-linkedin-blue);
+    text-decoration: underline;
+}
+
+.info__contact-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    width: 100%;
+}
+
+.info__contact-link_email {
+    background-color: var(--color-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    width: 100%;
+
+    color: var(--color-dark-grey);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    text-decoration: none;
+
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    padding: 9px 12px;
+
+    cursor: pointer;
+}
+
+.info__contact-link_linkedin {
+    background-color: var(--color-linkedin-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    width: 100%;
+
+    color: var(--color-white);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    text-decoration: none;
+
+    border: 1px solid var(--color-linkedin-blue);
+    border-radius: 6px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    padding: 9px 12px;
+
+    cursor: pointer;
+}

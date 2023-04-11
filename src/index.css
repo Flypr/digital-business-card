@@ -1,0 +1,31 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --color-linkedin-blue: #5093E2;
+  --color-white: #FFFFFF;
+  --color-orange: #F3BF99;
+  --color-title: #F5F5F5;
+  --color-paragraph: #DCDCDC;
+  --color-background: #23252C;
+  --color-dark-grey: #1E1F26;
+  --color-main-backgound: #1A1B21;
+  --color-footer-background: #161619;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.html, body {
+  margin: 0;
+  padding: 0;
+}

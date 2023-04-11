@@ -1,0 +1,22 @@
+.about__wrapper {
+    padding: 16px 32px 12px;
+}
+
+.about__title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+
+    color: var(--color-title);
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+.about__description {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+
+    color: var(--color-paragraph);
+    margin: 0;
+}
